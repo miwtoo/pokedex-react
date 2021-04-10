@@ -10,6 +10,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @apply bg-gradient-to-b;
+  @apply from-red-200;
 }
 
 code {
